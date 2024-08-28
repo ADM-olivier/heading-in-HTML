@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ეს მეტა თეგი განკითვნილია, რათა კომპიუტერმა ამოიცნოს უცხოური სიმბოლოები, იკონები, თუნდაც ქართული სიმბოლოები, ასოები, რათ ერორი არ გამოგვიტანოს საიტის გაშვებიბას, აგრეთვე ფონტებისა და font-familyსთვის -->
+    <meta charset="UTF-8">
+    <!--  -->
+    <!--  -->
+    <!-- ეს მეტა თეგი არის განკუთვნილი რესპონსიული დიზაინისთვის, როცა ვებგვერდს დავაპატარავდეთ შიგ შეტანილი შიგთვსმაც ზომა შეიცვალოს -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <!--  -->
+    <!-- ეს Title თეგი განკუთვნილია საიტისთვის Titleს მისაცემად, რაც გამოისახება საიტში iconის გვერდით -->
+    <title>Document</title>
+
+    <!-- <link rel="icon"ში ვწერთ ვებსაიტის იკონს ვანთვსებთ, relში აუცილებელია მივუთითოთ icon, ხოლო href="--"ში კი იკონის მისამართს, აუცილებელია rel="icon" არ აგვერიოს styleshhetში რადგან ეს განკუთვნილია css ფაილის დასაკავშირებლად.>-->
+    <link rel="icon" href="photos/mta.png">   
+    <!-- აქ ჩვენ მივეცით ჩვენ გვერდს iconი -->
+    <!--  -->
+    <!--  -->
+    <!-- descriptionში იწერება საიტის მოკლე აღწერილობა, რა საიტია, მოკლე მიმოხილვა ერთგვარი. -->
+    <meta name="description" content="სამთო-სათხილამურო მაღაზია, ზამთარ-ზაფხულის საკემპინგო აქსესუარებე, კარავი, გაზი, ჰამაკი, სათევზაო აღჭურვილობა,">
+    <!-- კონკრეტულად ეს თეგი გამოიყენება, სერჩს დროს ჩვენი საიტი სხვებზე წინ რომ გამოჩნდეს, რათ მომხმარებელს გაუადვილდეს ჩვენი საიტის მოძებნა და ასევე ჩვენი საიტი უფრო ძებნადი იყოს,
+     content="გაწერილი სიტყვები თუ დაემთხვა ჩვენს სერჩში გაწერილ მოთხოვნას კომპიუტერი შეადარებს ამ სიტყვებს და ამის მიხედვით წარმოაჩენს ვებსაიტთა ჩამონათვალს ტაბში, ამიტომ საჭიროა მეტი keyword  გავწეროთ კონტენტში"  -->
+    <!--  -->
+    <!-- როგორც მაღლა ვახსენეთ description გამოიყენება რათა საიტი უფრო ძებნადი გახდეს, descriptionს გარდა ერთ-ერთია keyword, რომელსაც ვწერთ name="keyword"ში , ხოლო მის კონტენტში კი უნდა ჩევიყვანოთ საკვანძო სიტყვები რითიც საიტი უფრო ძებნადი გახდება -->
+    <meta name="keyword" content="ლაშქრობა, კარავი, სამთო აღჭურვილობა, საზაფხულო აღჭურვილობა, თხილამური-სნოუბორდი ">
+    <!-- აქ იწერება html გვერდის ავტორი და შემქმნელი,name="შე ვწეერთ რა სახის ინფორმაცია უნდა ჩვწეროთ, ხოლო contentში="კი თვითონ ინფორმაციას "   -->
+    <meta name="author" content="malkhaz okriashvili">
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- აქ გავივლით property თეგს/ ასევე როგორც ვხედავთ content="value" meta და property თეგებს საერთო აქვთ -->
+    <meta property="og:image" content="photos/gza">
+    <!-- aq contentში იწერება სურათის მისამართი, განსხვავებით iconისა და imgისა, property  -->
+    <meta property="og:title" content="მაღაზია">
+    <!--  -->
+    <meta property="og:">
+</head>
+<body>
+    <h1>head tag</h1>
+    <h2>how developers are using head tag</h2>
+    <h3>One of the use for head tag is for "SEO"-'search engine optimization',
+        they are write in meta tags, with 'name' and 'property' valuess,<br>change website icon and <i>connecting html page to external css page</i>
+       <ol>
+            <li>we are using <link> tag for connecting vss and html</li>
+            <li>giving icon to our website </li>
+        </ol>
+        <ol>
+            <li>we are using meta tags for "SEO"</li>
+            <p>we are giving two atribute to 'meta' tag:
+                <li>one, is 'name' which is used for what type of information</li>
+                <li>second, is 'content' which is for information itself</li>
+            </p>
+        </ol>
+        <ol> og - open graph <br> ატრიბუტი გამოიყენება გაზიარებისას, ჩვენი გვერდი როგორ გაზიარდეს როგორი სახით, როგორი ფოტოთი, როგორი აღწერილობა ქონდეს გაზიარებულს / მას აქ შემდგომი ატრიბუტები:
+            <li>og:image- როგორი სურათი დაიყენოს გაზიარებისას</li>
+            <li>og:title - როგორი სათური ქონდეს გაზიარებისას</li>
+            <li>og:description - როგორი აღწერილობა</li>
+            <p>ეს სამივე ატრიბუტი ცალკე გამოიყენება meta თეგში name="" ატრიბუტში მაგრამ, მათი გამოყენება og:თან ნიშავს რომ მას ვიყენებთ გაზიარებულ ვებსაიტი როგორ გამოისახოს.</p>
+        </ol>
+
+        
+    </h3>
+</body>
+</html>
